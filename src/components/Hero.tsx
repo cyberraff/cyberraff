@@ -49,8 +49,8 @@ export function Hero() {
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ delay: 0.5 }}
 						className='text-lg text-slate-400 max-w-2xl mx-auto mb-8'>
-						Building decentralized applications and modern web
-						experiences that shape the future of the internet.
+						Building modern web experiences and decentralized
+						applications that shape the future of the internet.
 					</motion.p>
 
 					<motion.div
@@ -59,21 +59,21 @@ export function Hero() {
 						transition={{ delay: 0.6 }}
 						className='flex justify-center gap-4 mb-12'>
 						<a
-							href='https://github.com'
+							href='https://github.com/cyberraff'
 							target='_blank'
 							rel='noopener noreferrer'
 							className='p-3 bg-slate-800/50 backdrop-blur-sm rounded-full hover:bg-cyan-500/20 transition-colors border border-slate-700 hover:border-cyan-500'>
 							<Github className='w-6 h-6 text-slate-300' />
 						</a>
 						<a
-							href='https://linkedin.com'
+							href='https://www.linkedin.com/in/raphael-ejeogo-4467a51bb/'
 							target='_blank'
 							rel='noopener noreferrer'
 							className='p-3 bg-slate-800/50 backdrop-blur-sm rounded-full hover:bg-cyan-500/20 transition-colors border border-slate-700 hover:border-cyan-500'>
 							<Linkedin className='w-6 h-6 text-slate-300' />
 						</a>
 						<a
-							href='mailto:contact@example.com'
+							href='mailto:cyberraff@gmail.com'
 							className='p-3 bg-slate-800/50 backdrop-blur-sm rounded-full hover:bg-cyan-500/20 transition-colors border border-slate-700 hover:border-cyan-500'>
 							<Mail className='w-6 h-6 text-slate-300' />
 						</a>
